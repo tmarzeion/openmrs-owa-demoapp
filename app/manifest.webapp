@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "name": "demoApp",
+  "description": "Some description",
+  "launch_path": "index.html",
+  "icons": {
+    "48": "/img/omrs-button.png"
+  },
+  "developer": {
+    "name": "user",
+    "url": "https://github.com/user/openmrs-owa-demoapp"
+  },
+  "default_locale": "en",
+    "activities": {
+      "openmrs": {
+        "href": "*"
+      }
+    }
+}
