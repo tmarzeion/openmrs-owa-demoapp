@@ -7,8 +7,9 @@
     "url": "https://github.com/user/openmrs-owa-demoapp"
   },
   "dependencies": {
-	
-	 "angular": "^1.5.3" 
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.3.0",
+    "openmrs-contrib-uicommons": "^0.3.28"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

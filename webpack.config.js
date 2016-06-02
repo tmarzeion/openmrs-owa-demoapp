@@ -139,8 +139,8 @@ var webpackConfig = {
 	  app : `${__dirname}/app/js/demoapp.js`,
 	  css: `${__dirname}/app/css/demoapp.css`,
 	  vendor : [
-	        	
-	        	 'angular'
+
+	        	 'angular', 'openmrs-contrib-uicommons', 'angular-ui-router'
 	            ]
   },
   devtool: devtool,

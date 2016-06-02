@@ -9,9 +9,7 @@
  * under the License.
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
-(function () {
-  'use strict';
-  document.addEventListener("DOMContentLoaded", function(event) {
-    console.log('demoapp OpenMRS Open Web App Started.');
-  });
-}());
+import angular from 'angular'
+import Main from './main/main'
+
+export default angular.module('main', [ Main.name ])
