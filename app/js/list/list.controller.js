@@ -7,7 +7,7 @@ class ListController {
         var vm = this;
         
         vm.resource = "conceptclass";
-        vm.limit = 10;
+        vm.limit = 3;
         vm.columns = [
             {
                 "property":"name",
@@ -19,6 +19,7 @@ class ListController {
             }
         ];
         
+        vm.actions = [{"action":"purge", "label":"Delete"}]
     }
     
     
